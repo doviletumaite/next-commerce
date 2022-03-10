@@ -16,6 +16,11 @@ export default function Layout({children}) {
         <Container>
         {children}
         </Container>
+        <footer>
+            <Typography>
+                All rights reserved. Next MyCommerce
+            </Typography>
+        </footer>
     </div>
   )
 }
