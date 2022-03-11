@@ -15,8 +15,8 @@ export default function Layout({ children }) {
           <Typography>MyCommerce</Typography>
         </Toolbar>
       </AppBar>
-      <Container>{children}</Container>
-      <footer>
+      <Container className={classes.main}>{children}</Container>
+      <footer className={classes.footer}>
         <Typography>All rights reserved. Next MyCommerce</Typography>
       </footer>
     </div>
